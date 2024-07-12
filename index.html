@@ -5,116 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    header,nav,footer{
-      position: absolute;
-          width: 1px;
-          height: 1px;
-          margin: -1px;
-          padding: 0;
-          overflow: hidden;
-          clip: rect(0, 0, 0, 0);
-          border: 0;
-    }
-    body{
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-      background-color: hsl(0, 0%, 8%);
-      color: hsl(0, 0%, 100%);
-      font-family: "./assets/fonts/Inter-VariableFont_slnt,wght.ttf",sans-serif;  
-    }
-    .frame{
-      background-color:  hsl(0, 0%, 12%);
-      padding: 1rem;
-      border-radius: 1rem;
-      width: 17rem;
-      display: flex;
-      flex-direction: column;
-      
-    }
-    .frame img{
-      border-radius: 50%;
-      width: 4rem;
-      height: 4rem;
-      object-fit: cover;
-      align-self: center;
-    }
-    .legend{
-      text-align: center;
-      margin-top: 1rem;
-    }
-    .legend h1{
-      font-weight: 400;
-      margin: 0;
-    }
-    .legend h2{
-      font-size: 0.8rem;
-      margin: 0.3rem 0;
-      color:hsl(75, 94%, 57%);
-    }
-    .legend p{
-      font-size: 0.8rem;
-      font-weight: 300;
-      margin: 1rem 0;
-      
-    }
-    .social-links{
-      display: flex;
-      flex-direction: column;
-      align-items: center; 
-    }
-    .social-links button{
-      width: 100%;
-      margin: 0.3rem 0;
-      height: 2.5rem;
-      background-color: hsl(0, 0%, 20%);
-      border: none;
-      border-radius: 0.3rem;
-      color: hsl(0, 0%, 100%);
-      font-weight: bold;
-      
-    }
-    .social-links button:hover{
-      background-color:  hsl(75, 94%, 57%);
-      cursor: pointer;
-    }
-  </style>
 </head>
 <body>
   <header>
-    <h1></h1>
+    <h1>1</h1>
   </header>
 
   <nav></nav>
 
   <main id="main-content" role="main">
-    <section>
-      <div class="frame">
+    <section class="title">
         <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica's profile picture" />
         <div class="legend">
           <h1>Jessica Randall</h1>
           <h2>London, United Kingdom</h2>
           <p>"Front-end developer and avid reader."</p>
         </div>
-        <div class="social-links">
-
-            <button>Github</button>
-            <button>Frontend Mentor</button>
-            <button>LinkedIn</button>
-            <button>Twitter</button>
-            <button>Instagram</button>
-         
-        </div>
-
-      </div>
     </section>
+    <div class="social-links">
+            <a href="https://github.com/" target="blank_">Github</a>
+            <a href="https://www.frontendmentor.io/" target="blank_">Frontend Mentor</a>
+            <a href="https://www.linkedin.com/" target="blank_">LinkedIn</a>
+            <a href="https://twitter.com/" target="blank_">Twitter</a>
+            <a href="https://www.instagram.com/" target="blank_">Instagram</a>
+    </div>
   </main>
 
   <footer></footer>

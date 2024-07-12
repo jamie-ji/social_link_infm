@@ -1,0 +1,81 @@
+header,nav,footer{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: "./assets/fonts/Inter-VariableFont_slnt,wght.ttf",sans-serif;  
+    
+  }
+  main{
+    background-color:  hsl(0, 0%, 12%);
+    padding: 1rem;
+    border-radius: 1rem;
+    align-self: center;
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .title{
+    text-align: center;
+  }
+    img{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+  }
+  .legend{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .legend h1{
+    font-weight: 400;
+    margin: 0;
+  }
+  .legend h2{
+    font-size: 0.8rem;
+    margin: 0.3rem 0;
+    color:hsl(75, 94%, 57%);
+  }
+  .legend p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    
+  }
+  .social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+    a{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin: 0.3rem 0;
+    line-height: 2.5rem;
+    height: 2.5rem;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 0.3rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold; 
+  }
+  .social-links a:hover{
+    background-color:  hsl(75, 94%, 57%);
+    cursor: pointer;
+  }
